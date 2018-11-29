@@ -11,6 +11,7 @@ class color_target:
 
 		self.in_dir = "./uncolored/*.JPG"
 		self.out_dir = "./output_img/"
+
 		if not os.path.exists(self.out_dir):
 			os.makedirs(self.out_dir)
 
